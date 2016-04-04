@@ -1,0 +1,72 @@
+.hero {
+  height: calc(100vh - 58px);
+
+  @include media-up($bp-med) {
+    height: calc(100vh - 80px);
+  }
+
+  .h1-hero {
+    animation: slideUp 1s $ease-in-out-quint;
+  }
+}
+
+.hero--alt {
+  .hero__container-top,
+  .hero__container-bottom {
+    height: 50%;
+  }
+
+  .h1-hero {
+    text-transform: uppercase;
+  }
+}
+
+.hero-image {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__container-top,
+.hero__container-bottom {
+  @extend %flex-end;
+}
+
+.hero__container-top {
+  height: 55%;
+  padding-left: $spacer-base;
+
+  .link {
+    margin-left: 6px;
+    margin-top: $spacer-2;
+  }
+
+  @include media-up($bp-med) {
+    height: 60%;
+  }
+
+  @include media-up($bp-lg) {
+    padding-left: 0;
+  }
+}
+
+.hero__container-flex {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero__container-bottom {
+  animation: slideUp 2s $ease-in-out-quint;
+  height: 45%;
+  padding-bottom: $spacer-3;
+
+  .icon-arrow-down {
+    @extend %margin-centre;
+  }
+
+  @include media-up($bp-med) {
+    height: 40%;
+  }
+}

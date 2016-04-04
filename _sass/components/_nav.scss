@@ -1,0 +1,34 @@
+.nav {
+  float: right;
+  font-family: $font-family-primary;
+  font-size: $font-size-xxs;
+
+  @include media-up($bp-med) {
+    font-size: $font-size-xs;
+  }
+}
+
+.nav__navbar {
+  li {
+    display: inline;
+    letter-spacing: $letter-spacing;
+    margin-right: $spacer-base;
+    text-transform: uppercase;
+
+    @include media-up($bp-med) {
+      margin-right: $spacer-2;
+    }
+
+    @include media-up($bp-lg) {
+      margin-right: $spacer-4;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  a {
+    @extend %link-hover;
+  }
+}

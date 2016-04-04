@@ -1,0 +1,84 @@
+.cta__group {
+  @include clearfix();
+}
+
+.cta {
+  background-color: $grey-light;
+  display: table;
+  height: 140px;
+  padding-left: $spacer-3;
+  padding-right: $spacer-3;
+  text-align: center;
+  transition: background 200ms linear;
+  width: 100%;
+
+  @include media-up($bp-lg) {
+    height: 200px;
+  }
+
+  &:hover {
+    background-color: $grey-dark;
+  }
+
+  .cta__group & {
+    @include media-up($bp-med) {
+      float: left;
+      width: 50%;
+    }
+  }
+
+  .h2-cta {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.cta--half {
+  @include media-up($bp-med) {
+    float: left;
+    width: 50%;
+  }
+}
+
+.cta--next-project {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  transition: all 400ms $ease-in-out-quint;
+
+  &::before {
+    background-color: rgba($white, .3);
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: background 200ms linear;
+    width: 100%;
+  }
+
+  &:hover {
+    background-size: 115%;
+
+    &::before {
+      background-color: rgba($white, .6);
+    }
+
+    .h2-cta u {
+      border-bottom: 5px solid $colour-black;
+    }
+  }
+
+  .h2-cta {
+    color: $colour-black;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 1;
+
+    u {
+      border-bottom: 0 solid $colour-black;
+      transition: border 100ms linear;
+    }
+  }
+}

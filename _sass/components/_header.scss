@@ -1,0 +1,29 @@
+.header {
+  padding-bottom: $spacer-base;
+  padding-top: $spacer-base;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  @include media-up($bp-med) {
+    padding-bottom: $spacer-base * 1.3333;
+    padding-top: $spacer-base * 1.3333;
+  }
+}
+
+.header--white {
+  background-color: $white;
+}
+
+.header__container {
+  @extend %container-padding;
+  @extend %flex-centre-vertical;
+  @extend %flex-space-between;
+  @extend %margin-centre;
+
+  @include media-up($bp-lg) {
+    max-width: $header-max-width;
+    width: 100%;
+  }
+}

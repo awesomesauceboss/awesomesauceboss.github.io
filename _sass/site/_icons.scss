@@ -1,0 +1,13 @@
+.icon-arrow-down {
+  @extend %icons;
+
+  font-size: 2.5rem;
+
+  &::before {
+    content: $icon-arrow-down;
+  }
+
+  &.animate {
+    animation: arrowDown 2s ease infinite;
+  }
+}

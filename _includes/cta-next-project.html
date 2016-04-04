@@ -1,0 +1,17 @@
+{% if page.previous == null %}
+  <a
+    class="cta cta--next-project"
+    style="background-image: url({{ site.posts.first.project_hero_image }})"
+    href="{{ site.posts.first.url }}"
+  >
+    <h2 class="h2-cta"><u>{{ site.posts.first.project_title }}</u></h2>
+  </a>
+{% else %}
+  <a
+    class="cta cta--next-project"
+    style="background-image: url({{ page.previous.project_hero_image }})"
+    href="{{ page.previous.url }}"
+  >
+    <h2 class="h2-cta"><u>{{ page.previous.project_title }}</u></h2>
+  </a>
+{% endif %}

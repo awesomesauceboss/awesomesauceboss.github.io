@@ -1,0 +1,29 @@
+// Spacing
+$spacer-base: .9375rem; // 15px
+$spacer-2: $spacer-base * 2; // 30px
+$spacer-3: $spacer-base * 3; // 45px
+$spacer-4: $spacer-base * 4; // 60px
+$spacer-5: $spacer-base * 5; // 75px
+$spacer-6: $spacer-base * 6; // 90px
+$spacer-7: $spacer-base * 7; // 105px
+$spacer-8: $spacer-base * 8; // 120px
+$spacer-9: $spacer-base * 9; // 135px
+$spacer-10: $spacer-base * 10; // 150px
+$spacer-11: $spacer-base * 10; // 165px
+$spacer-12: $spacer-base * 12; // 180px
+$spacer-13: $spacer-base * 13; // 195px
+$spacer-14: $spacer-base * 14; // 210px
+$spacer-15: $spacer-base * 15; // 225px
+
+// Grid
+$grid-columns: 12;
+$grid-column-gutter: .625rem; // 10px
+$grid-max-width: 58.125em; // 930px
+
+// Conatiners
+$header-max-width: $grid-max-width;
+$container-max-width: 51.875rem; // 830px
+
+// Breakpoints
+$bp-med: 40em; // 640px
+$bp-lg: $grid-max-width;

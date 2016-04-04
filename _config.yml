@@ -1,0 +1,15 @@
+# Site settings
+title: Sharon Peng | Designer
+email: contact@sharon-peng.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://sharon-peng.com"
+twitter_username: jekyllrb
+github_username:  jekyll
+linkedin_url: au.linkedin.com/in/sharonpeng1
+
+# Build settings
+markdown: kramdown
+exclude: [tmuxinator.yml]
+
+# Outputting
+permalink: /:title/

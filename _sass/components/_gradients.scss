@@ -1,0 +1,5 @@
+.gradient-animated {
+  animation: bgGradient 60s ease infinite;
+  background: linear-gradient(135deg, $dolly, $persian-pink, $malibu, $lilac, $cherokee);
+  background-size: 1400% 1400%;
+}

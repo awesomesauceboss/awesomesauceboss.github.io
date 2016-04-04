@@ -1,0 +1,79 @@
+%link {
+  font-family: $font-family-primary;
+  font-size: $font-size-xs;
+  font-weight: normal;
+  letter-spacing: $letter-spacing;
+  text-transform: uppercase;
+
+  @include media-up($bp-med) {
+    font-size: $font-size-sm;
+  }
+}
+
+%link-hover {
+  @include media-up($bp-med) {
+    position: relative;
+
+    &::after {
+      background-color: $colour-black;
+      bottom: -$spacer-base / 3;
+      content: '';
+      height: 0;
+      left: 0;
+      position: absolute;
+      transition: height 100ms linear;
+      width: 100%;
+    }
+
+    &:hover {
+      &::after {
+        height: 2px;
+      }
+    }
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color: $colour-black;
+  font-family: $font-family-secondary;
+  font-size: $font-size-base;
+  font-weight: normal;
+}
+
+body {
+  padding-top: 58px;
+
+  @include media-up($bp-med) {
+    padding-top: 80px;
+  }
+}
+
+input,
+textarea,
+button {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+p {
+  line-height: 1.4;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+u {
+  text-decoration: none;
+}

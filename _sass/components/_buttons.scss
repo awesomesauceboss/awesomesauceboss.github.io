@@ -1,0 +1,11 @@
+.button-plain {
+  @extend %link;
+}
+
+.button-with-icon {
+  @extend %margin-centre;
+
+  div:first-child {
+    margin-bottom: $spacer-base;
+  }
+}

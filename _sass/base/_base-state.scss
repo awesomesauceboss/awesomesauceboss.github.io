@@ -1,0 +1,21 @@
+.is-animating-out {
+  opacity: 0;
+  transition: all 400ms linear;
+
+  &.gradient-animated {
+    animation: none;
+    background: transparent;
+  }
+}
+
+.gradient-static {
+  // background: transparent;
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.is-animating-in {
+  // background: linear-gradient(135deg, $chrome-white, $sail);
+  // background-size: 100% 100%;
+  opacity: 1;
+}

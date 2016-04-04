@@ -1,0 +1,23 @@
+@keyframes arrowDown {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes bgGradient {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 93% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

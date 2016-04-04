@@ -1,0 +1,29 @@
+.text-box {
+  background-color: $white;
+  padding-bottom: $spacer-2;
+  padding-top: $spacer-2;
+
+  @include media-up($bp-med) {
+    padding-left: $spacer-2;
+    padding-right: $spacer-2;
+  }
+
+  &.h3 {
+    p + p {
+      margin-top: $spacer-2;
+    }
+  }
+}
+
+.text-box--no-pad {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.social-media {
+  padding-top: $spacer-2;
+
+  a {
+    @extend %link;
+  }
+}

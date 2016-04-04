@@ -1,0 +1,11 @@
+@mixin make-col($columns, $column-width, $column-gutter) {
+  @for $i from 1 through $columns {
+    .col-#{$i} {
+      float: left;
+      min-height: 1px;
+      padding-left: ($column-gutter / 2);
+      padding-right: ($column-gutter / 2);
+      width: percentage($i / $columns);
+    }
+  }
+}

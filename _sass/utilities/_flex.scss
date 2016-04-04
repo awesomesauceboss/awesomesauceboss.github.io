@@ -1,0 +1,13 @@
+%flex-centre-vertical {
+  align-items: center;
+  display: flex;
+}
+
+%flex-end {
+  align-items: flex-end;
+  display: flex;
+}
+
+%flex-space-between {
+  justify-content: space-between;
+}
