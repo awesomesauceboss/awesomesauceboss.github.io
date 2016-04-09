@@ -445,9 +445,11 @@ u {
         margin-right: 3.75rem; } }
 
 .project-preview {
-  height: 100vh; }
+  height: 80vh;
+  padding-top: 80px; }
   @media (min-width: 40em) {
     .project-preview {
+      height: 100vh;
       padding-top: 7.5rem; } }
   .project-preview:last-child .project-preview__container-bottom {
     display: none; }
