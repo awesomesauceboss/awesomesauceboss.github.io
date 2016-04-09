@@ -456,12 +456,19 @@ u {
 
 .project-preview__container-top {
   height: 80%;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
   position: relative; }
+  @media (min-width: 40em) {
+    .project-preview__container-top {
+      padding-left: 1.875rem;
+      padding-right: 1.875rem; } }
   .project-preview__container-top:hover .project-image::after {
     background-color: transparent; }
   .project-preview__container-top:hover .h1-project u {
     border-bottom: 7px solid #000; }
   .project-preview__container-top .h1-project {
+    left: 0;
     position: absolute;
     top: 50%;
     transform: translateY(-50%); }
@@ -478,7 +485,7 @@ u {
   float: right;
   height: 100%;
   position: relative;
-  width: 95%; }
+  width: 100%; }
   .project-image::after {
     background-color: rgba(255, 255, 255, 0.6);
     content: '';

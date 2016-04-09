@@ -1,7 +1,6 @@
 .project-preview {
   height: 80vh;
   padding-top: 80px;
-  // height: 100vh;
 
   @include media-up($bp-med) {
     height: 100vh;
@@ -17,7 +16,14 @@
 
 .project-preview__container-top {
   height: 80%;
+  padding-left: $spacer-base;
+  padding-right: $spacer-base;
   position: relative;
+
+  @include media-up($bp-med) {
+    padding-left: $spacer-2;
+    padding-right: $spacer-2;
+  }
 
   &:hover {
     .project-image::after {
@@ -30,6 +36,7 @@
   }
 
   .h1-project {
+    left: 0;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -57,7 +64,7 @@
   float: right;
   height: 100%;
   position: relative;
-  width: 95%;
+  width: 100%;
 
   &::after {
     background-color: rgba($white, .6);
