@@ -445,7 +445,8 @@ u {
         margin-right: 3.75rem; } }
 
 .project-preview {
-  height: 80vh;
+  height: 100vh;
+  padding-bottom: 1.875rem;
   padding-top: 80px; }
   @media (min-width: 40em) {
     .project-preview {
@@ -455,7 +456,7 @@ u {
     display: none; }
 
 .project-preview__container-top {
-  height: 80%;
+  height: 100%;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   position: relative; }
