@@ -8,11 +8,17 @@ position: Digital Designer
 scope: Landing page design, responsive web design
 gradient: "linear-gradient(135deg, #fffbb2, #fab2dc)"
 primary_content: This landing page is made to inform statistics and newfound information about the impact of technology on economics.
+
 project_hero_image: /assets/img/projects/project-hero-ebay.jpg
-project_image_1: /assets/img/projects/project-detail-ebay-1.jpg
-project_image_2: /assets/img/projects/project-detail-ebay-2.jpg
-project_image_3: /assets/img/projects/project-detail-ebay-3.jpg
-project_image_4: /assets/img/projects/project-detail-ebay-4.jpg
-half_content: true
+images:
+  - url: /assets/img/projects/project-detail-ebay-1.jpg
+    classes: "project-detail__image"
+  - url: /assets/img/projects/project-detail-ebay-2.jpg
+    classes: "project-detail__image"
+  - url: /assets/img/projects/project-detail-ebay-3.jpg
+    classes: "project-detail__image project-detail__image-half project-detail__image-half-right"
+  - url: /assets/img/projects/project-detail-ebay-4.jpg
+    classes: "project-detail__image project-detail__image-half"
+
 alt_layout: false
 ---

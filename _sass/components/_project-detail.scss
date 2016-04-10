@@ -38,7 +38,7 @@
   .project-detail__primary-content {
     margin-bottom: $spacer-2;
 
-    @include media-up($bp-lg) {
+    @include media-up($bp-med) {
       float: left;
       margin-bottom: 0;
       width: 50%;
@@ -54,9 +54,9 @@
   margin-bottom: $spacer-base;
   margin-top: $spacer-2;
 
-  @include media-up($bp-med) {
+  /* @include media-up($bp-med) {
     margin-top: $spacer-4;
-  }
+  } */
 
   @include media-up($bp-lg) {
     margin-bottom: 0;
@@ -80,7 +80,7 @@
 }
 
 .project-detail__image--alt {
-  @include media-up($bp-lg) {
+  @include media-up($bp-med) {
     float: left;
     margin-bottom: 0;
     margin-top: 0;
@@ -106,5 +106,18 @@
         margin-right: $spacer-4;
       }
     }
+  }
+}
+
+.project-detail__image-half {
+  @include media-up($bp-med) {
+    float: left;
+    width: calc(50% - #{$spacer-4 / 2});
+  }
+}
+
+.project-detail__image-half-right {
+  @include media-up($bp-med) {
+    margin-right: $spacer-4;
   }
 }

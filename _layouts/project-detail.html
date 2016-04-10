@@ -46,48 +46,20 @@ layout: static-gradient
         </div>
         <div class="clearfix">
           <p class="project-detail__primary-content">{{ page.primary_content }}</p>
-          <div class="project-detail__image {% if page.alt_layout %}project-detail__image--alt{% endif %}">
-            <img src="{{ page.project_image_1 }}" />
-          </div>
-        </div>
-        {% if page.project_image_2 %}
-          <div class="project-detail__body">
-            <img class="project-detail__image" src="{{ page.project_image_2 }}" />
-            {% if page.secondary_content %}
-              <p class="project-detail__secondary-content">{{ page.secondary_content }}</p>
-            {% endif %}
-            {% if page.project_image_3 %}
-              {% if page.half_content %}
-                <div class="half-content">
-                  {% if page.project_image_3 %}
-                  <img class="project-detail__image" src="{{ page.project_image_3 }}" />
-                  {% endif %}
-                  {% if page.project_image_4 %}
-                  <img class="project-detail__image" src="{{ page.project_image_4 }}" />
-                  {% endif %}
-                </div>
-              {% else %}
-                <img class="project-detail__image" src="{{ page.project_image_3 }}" />
-              {% endif %}
-            {% endif %}
-            {% if page.project_image_5 %}
-            <img class="project-detail__image" src="{{ page.project_image_5 }}" />
-            {% endif %}
-            {% if page.project_image_6 %}
-            <img class="project-detail__image" src="{{ page.project_image_6 }}" />
-            {% endif %}
-            {% if page.project_image_7 %}
-            <div class="half-content">
-              {% if page.project_image_7 %}
-              <img class="project-detail__image" src="{{ page.project_image_7 }}" />
-              {% endif %}
-              {% if page.project_image_8 %}
-              <img class="project-detail__image" src="{{ page.project_image_8 }}" />
-              {% endif %}
+          {% if page.alt_layout_image %}
+            <div class="project-detail__image project-detail__image--alt">
+              <img src="{{ page.alt_layout_image }}" />
             </div>
-            {% endif %}
-          </div>
-        {% endif %}
+          {% endif %}
+        </div>
+        <div class="project-detail__body">
+          {% if page.secondary_content %}
+            <p class="project-detail__secondary-content">{{ page.secondary_content }}</p>
+          {% endif %}
+          {% for item in page.images %}
+            <img class="{{ item.classes }}" src="{{ item.url }}" />
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>

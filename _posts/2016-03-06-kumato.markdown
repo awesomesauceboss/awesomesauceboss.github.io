@@ -1,0 +1,23 @@
+---
+layout: project-detail
+title: Sharon Peng | Designer - Kumato
+project_title: Kumato
+link: http://kumato.com.au/
+agency: Bubblefish
+position: Freelance Designer
+scope: Visual direction, visual guidelines, social media guidelines
+gradient: "linear-gradient(135deg, #fddfbb, #debedd)"
+primary_content: Kumatoes are a glasshouse grown, unique variety of tomato originating in Europe in the 1970’s. Having already gained international exposure, kumatoes just received a license to grow and sell in Australia. Syngenta, the parent company of Kumato, wanted to educate the Australia public about the benefits of kumato, wanting to emphasise their versatility and great taste at all of the fruit’s stages.
+secondary_content: I created two visual directions which would help inspire and appeal to the Australian public. The chosen direction was a more rustic and down to earth visual style, something that Sygenta believed Australians would identify with. The visual direction was applied to the photography and design of a new brand awareness website.
+
+project_hero_image: /assets/img/projects/project-hero-kumato.jpg
+images:
+  - url: /assets/img/projects/project-detail-kumato-1.jpg
+    classes: "project-detail__image"
+  - url: /assets/img/projects/project-detail-kumato-2.jpg
+    classes: "project-detail__image"
+  - url: /assets/img/projects/project-detail-kumato-3.jpg
+    classes: "project-detail__image"
+
+alt_layout: false
+---
