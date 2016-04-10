@@ -5,7 +5,6 @@ if (document.querySelector('.project-preview')) {
     var linkLocation = project.children[0].href;
 
     project.addEventListener('click', function(e) {
-      console.dir(project);
       e.preventDefault();
       document.body.classList.add('is-animating-out');
 
@@ -40,17 +39,19 @@ function scrollTo(element, target, duration) {
   }, 10);
 }
 
-function runScroll() {
-  var doc = document.documentElement,
-    projects = document.getElementById('projects');
+if (document.getElementById('projects')) {
+  function runScroll() {
+    var doc = document.documentElement,
+      projects = document.getElementById('projects');
 
-  if (doc.scrollTop <= 0) {
-    doc = document.body;
+    if (doc.scrollTop <= 0) {
+      doc = document.body;
+    }
+
+    scrollTo(doc, projects.offsetTop, 300);
   }
 
-  scrollTo(doc, projects.offsetTop, 300);
+  var scrollButton = document.getElementById('scroll-button');
+
+  scrollButton.addEventListener('click', runScroll);
 }
-
-var scrollButton = document.getElementById('scroll-button');
-
-scrollButton.addEventListener('click', runScroll);
