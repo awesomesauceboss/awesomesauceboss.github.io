@@ -36,7 +36,7 @@ function scrollTo(element, target, duration) {
     }
 
     scrollTo(element, target, duration - 10);
-  }, 1000);
+  }, 10);
 }
 
 if (document.getElementById('projects')) {
