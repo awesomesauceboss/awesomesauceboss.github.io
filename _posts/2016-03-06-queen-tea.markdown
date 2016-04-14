@@ -1,0 +1,26 @@
+---
+layout: project-detail
+title: Sharon Peng | Designer - Queen Tea
+project_title: Queen Tea
+agency: queentea
+position: Freelance Designer
+scope: Logo, branding, brand & visual guidelines
+gradient: "linear-gradient(135deg, #ddeec5, #b2e7fa)"
+primary_content: Queen Tea specialises in producing the finest bubble tea ranges. Originated from Taiwan, Queen Tea had a hard time receiving attention in Australia, particularly with its original name 'Queen of Spades'.
+secondary_content: Seeking to rebrand their image, we've found that their point of difference was their use of real freshly brewed tea along with fresh milk and ingredients. This branding follows the concept of, 'regal quality tea brewery'. Queen Tea's methods of traditional tea brewing mixed with interesting flavours, brought the idea of the look and feel to include scientific inspired illustrations, along with pops of colour.
+
+project_hero_image: /assets/img/projects/project-hero-queentea.jpg
+images:
+  - url: /assets/img/projects/project-detail-queentea-1.jpg
+    classes: "project-detail__image"
+  - url: /assets/img/projects/project-detail-queentea-2.jpg
+    classes: "project-detail__image"
+  - url: /assets/img/projects/project-detail-queentea-3.jpg
+    classes: "project-detail__image"
+  - url: /assets/img/projects/project-detail-queentea-4.jpg
+    classes: "project-detail__image"
+  - url: /assets/img/projects/project-detail-queentea-5.jpg
+    classes: "project-detail__image"
+
+alt_layout: false
+---
