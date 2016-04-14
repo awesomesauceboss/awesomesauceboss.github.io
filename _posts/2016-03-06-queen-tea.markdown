@@ -2,7 +2,7 @@
 layout: project-detail
 title: Sharon Peng | Designer - Queen Tea
 project_title: Queen Tea
-agency: queentea
+agency: Bubblefish
 position: Freelance Designer
 scope: Logo, branding, brand & visual guidelines
 gradient: "linear-gradient(135deg, #ddeec5, #b2e7fa)"
