@@ -23,7 +23,13 @@
 .social-media {
   padding-top: $spacer-2;
 
-  a {
+  .link {
     @extend %link;
+
+    margin-right: $spacer-4;
+
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }

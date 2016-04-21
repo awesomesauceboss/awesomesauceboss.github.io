@@ -109,14 +109,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.button-plain, .social-media a {
+.button-plain, .social-media .link {
   font-family: "Montserrat", sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   letter-spacing: 0.9px;
   text-transform: uppercase; }
   @media (min-width: 40em) {
-    .button-plain, .social-media a {
+    .button-plain, .social-media .link {
       font-size: 0.9375rem; } }
 
 @media (min-width: 40em) {
@@ -523,6 +523,10 @@ u {
 
 .social-media {
   padding-top: 1.875rem; }
+  .social-media .link {
+    margin-right: 3.75rem; }
+    .social-media .link:last-child {
+      margin-right: 0; }
 
 .container {
   height: inherit;
