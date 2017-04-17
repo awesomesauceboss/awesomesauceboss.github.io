@@ -1,30 +1,23 @@
----
-layout: default
----
-<div class="container">
-  <div class="hero">
-    <div class="hero__container-top">
-      <h1 class="h1-hero">
-        Hi,<br />
-        I'm Sharon Peng.<br />
-        A Designer based<br />
-        in Sydney.
-      </h1>
-    </div>
-    <div class="hero__container-bottom">
-      <button class="button-plain button-with-icon" id="scroll-button">
-        <div class="link">View Work</div>
-        <div class="icon-arrow-down animate"></div>
-      </button>
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-7">
+    <title>Sharon Peng | Designer</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,700,900italic' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+  </head>
+
+  <body>
+    <div class="all-text">
+      <h1>SHARON PENG</h1>
+      <h2>DESIGNER</h2>
+      <div class="gradient">
+        <h3>COMING SOON</h3>
     </div>
   </div>
-  <div id="projects">
-    {% for post in site.posts %}
-      {% include project-preview.html %}
-    {% endfor %}
-  </div>
-</div>
-<div class="cta__group">
-  {% include cta-about.html %}
-  {% include cta-contact.html %}
-</div>
+  </body>
+  <footer>
+    <a>© Sharon Peng 2016</a>
+  </footer>
+</html>
