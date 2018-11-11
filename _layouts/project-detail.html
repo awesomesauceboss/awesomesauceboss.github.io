@@ -45,7 +45,7 @@ layout: static-gradient
           {% endif %}
         </div>
         <div class="clearfix">
-          <p class="project-detail__primary-content">{{ page.primary_content }}</p>
+          <p class="project-detail__intro">{{ page.intro }}</p>
           {% if page.alt_layout_image %}
             <div class="project-detail__image project-detail__image--alt">
               <img src="{{ page.alt_layout_image }}" />
@@ -53,9 +53,7 @@ layout: static-gradient
           {% endif %}
         </div>
         <div class="project-detail__body">
-          {% if page.secondary_content %}
-            <p class="project-detail__secondary-content">{{ page.secondary_content }}</p>
-          {% endif %}
+          {{ content }}
           {% for item in page.images %}
             <img class="{{ item.classes }}" src="{{ item.url }}" />
           {% endfor %}

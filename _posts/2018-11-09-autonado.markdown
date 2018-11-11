@@ -1,0 +1,16 @@
+---
+layout: project-detail
+title: Sharon Peng | Designer - Autonado
+project_title: Autonado
+agency: GHO Sydney
+position: UX/UI Designer
+scope:
+gradient: "linear-gradient(135deg, #ddeec5, #b2e7fa)"
+intro: Autonado is a start-up product with a vision of creating one platform to connect all auto enthusiasts.
+---
+
+## Challenges
+The client wanted to people to easily create and host auto events by connecting them with vendors such as food providers and venues. Users are able to build their reputation and show off what motor vehicles they own.
+
+## Solution
+Four different account types were created to cater for the various users: Free, premium (paid users and influencers), vendors (food trucks, photographers, venues, etc.) and brand accounts (contractors). It is important to keep the app feeling like a social network by including notifications from other users, personalisation in their profile page and commenting.

@@ -1,10 +1,10 @@
 .nav {
   float: right;
   font-family: $font-family-primary;
-  font-size: $font-size-xxs;
+  font-size: 13px;
 
   @include media-up($bp-med) {
-    font-size: $font-size-xs;
+    font-size: 13px;
   }
 }
 

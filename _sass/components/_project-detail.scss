@@ -35,9 +35,7 @@
 .project-detail__alt-box {
   @include clearfix();
 
-  .project-detail__primary-content {
-    margin-bottom: $spacer-2;
-
+  .project-detail__intro {
     @include media-up($bp-med) {
       float: left;
       margin-bottom: 0;
@@ -46,8 +44,29 @@
   }
 }
 
+.project-detail__intro {
+  margin-bottom: $spacer-2;
+}
+
 .project-detail__body {
   @include clearfix();
+
+  h2 {
+    font-family: $font-family-primary;
+    font-size: 18px;
+    font-weight: $black;
+    letter-spacing: $letter-spacing;
+    margin-bottom: $spacer-2;
+    text-transform: uppercase;
+  }
+
+  p + h2 {
+    margin-top: $spacer-5;
+  }
+
+  p:not(:last-child) {
+    margin-bottom: $spacer-2;
+  }
 }
 
 .project-detail__secondary-content {
@@ -68,6 +87,19 @@
   max-width: 100%;
   text-align: center;
   width: 100%;
+
+  &.is-first-half,
+  &.is-second-half {
+    width: calc(50% - 15px);
+  }
+
+  &.is-first-half {
+    float: left;
+  }
+
+  &.is-first-half {
+    float: right;
+  }
 
   @include media-up($bp-med) {
     margin-top: $spacer-4;

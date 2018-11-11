@@ -1,0 +1,26 @@
+---
+layout: project-detail
+title: Sharon Peng | Designer - OPSM
+project_title: OPSM
+agency: GHO Sydney
+position: Lead UX/UI Designer
+scope:
+gradient: "linear-gradient(135deg, #ddeec5, #b2e7fa)"
+---
+
+## Challenges
+OPSM needed a refresh to their ecommerce website as the existing experience was no longer providing a good user experience. Users were having issues finding the right product using the website’s search or when navigating the product listing page. Search in particular, was often inaccurate, serving the user unrelated products and articles.
+
+The client also wanted to increase the amount of users booking eye tests on the website, which was hard to use on the current mobile experience. They also wanted to streamline the website’s contact lens purchase journey, as it is one of its most purchased products online.
+
+The new website also had to fit with the new brand refresh look and fill. The mandate was to have it feel more premium and to reflect OPSM’s position as the leading optometrist for eye care advice in Australia.
+
+## UX Methodologies and Research
+Research was conducted using heat maps, funnels and surveys. We found that users had to do a lot of scrolling to be able to find relevant information or to find controls that helped with filtering. We also found that the amount of promotions above the fold on the homepage was overwhelming and unnecessary as users only seemed to interact with the lead carousel.
+
+## Solution
+We created a sleeker UI and minimised the amount of colours to match the new brand’s look and feel. The monotone colour palette was also used to help complement the variety of brand campaigns.
+
+On the homepage, the hierarchy and spacing between promotions has been improved to help with the visual flow. We moved the more popular or important sections (product categories, booking an eye test) to the top of the page. The homepage also includes some personalisation options for a logged-in user. The website will serve personalised promotions based on the user’s purchase history as well as eye test reminders.
+
+The extremely long mobile has been replaced with curtain level navigation. The use of imagery also helps place some more context to the user. Predictive search as well as categorising the search results has been implemented to improve the search experience. We made sure the user can see all of the most important items at first glance with some smaller details such as sticky filters on the product listing page and having the ‘add to cart’ button sticky on mobile. Users can now find their existing contact lens prescription when they have logged in, making their contact lens purchase experience much more easier

@@ -27,12 +27,12 @@
   }
 
   &:hover {
-    .project-image::after {
-      background-color: transparent;
-    }
+    .project-image {
+      background-size: 110%;
 
-    .h1-project u {
-      border-bottom: 7px solid $colour-black;
+      &::after {
+        background-color: transparent;
+      }
     }
   }
 
@@ -66,9 +66,11 @@
   height: 100%;
   position: relative;
   width: 100%;
+  background-size: 100%;
+  transition: background-size 100ms ease-in-out;
 
   &::after {
-    background-color: rgba($white, .6);
+    background-color: rgba($white, 0.6);
     content: '';
     height: 100%;
     left: 0;

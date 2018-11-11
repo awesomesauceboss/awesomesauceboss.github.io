@@ -1,0 +1,22 @@
+---
+layout: project-detail
+title: Sharon Peng | Designer - Deck
+project_title: Deck
+agency: Personal project
+position: Lead Product Designer and Co-product Owner
+scope:
+gradient: "linear-gradient(135deg, #ddeec5, #b2e7fa)"
+intro: As a designer, I always loved to bookmark any awesome websites I come across. By default I used the bookmarks section of the browser, but I always ended up being left with a long list of forgotten websites. I pitched an idea to my partner to show bookmarked websites with a screenshot of the page in a card format, like a deck of cards.
+---
+
+## Challenges
+Rather than a separate app to house these websites, we created a Chrome extension. We have never made a browser extension before, so it would be perfect to give it a go and learn from it.
+
+We had challenges with the Javascript logic in generating screenshots then uploading them to Firebase. We want to make sure the deck was easily accessible at all times, just like the bookmark feature in any browser. The layout also had to be responsive at every browser size.
+
+## Solution
+We developed the Deck extension as two parts: a tool to bookmark websites and an app to view and manage the “deck” of bookmarks.
+
+When the user is on a website they’d like to bookmark, they click on the deck icon in the Chrome extension bar. They will be presented with a popup asking them to save it in a folder or to create a new one. Once they saved a bookmark, a Firebase function is triggered which will crawl the website, take a screenshot of it and upload it to a server.
+
+To view bookmarks, the user simply opens a new tab to see their deck of bookmarks presented to them as cards. Each card displays the name of the website, a screenshot of it and the date it was saved.
