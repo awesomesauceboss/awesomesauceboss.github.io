@@ -7,10 +7,10 @@ position: Lead UX/UI Designer
 scope:
 gradient: "linear-gradient(135deg, #ddeec5, #b2e7fa)"
 intro: SMART Recovery is a not-for-profit organisation who provides programs for assisting people who want to take control of their addiction. Its programs are guided by trained peers, professionals and researchers using cognitive behaviour therapy and other motivational strategies.
-project_hero_image: /assets/img/projects/project-hero-sr.jpg
+project_hero_image: /assets/img/projects/smart-recovery/smrt_banner.jpg
 ---
 
-![SMART Recovery image 1]({{ site.url }}/assets/img/projects/project-detail-sr-1.jpg){:class="project-detail__image"}
+![SMART Recovery image 1]({{ site.url }}/assets/img/projects/smrt_1.jpg){:class="project-detail__image"}
 
 SMART Recovery is a not-for-profit organisation who provides programs for assisting people who want to take control of their addiction. Its programs are guided by trained peers, professionals and researchers using cognitive behaviour therapy and other motivational strategies.
 
@@ -30,14 +30,14 @@ On the homepage, the hierarchy and spacing between promotions has been improved 
 The extremely long mobile has been replaced with curtain level navigation. The use of imagery also helps place some more context to the user. Predictive search as well as categorising the search results has been implemented to improve the search experience. We made sure the user can see all of the most important items at first glance with some smaller details such as sticky filters on the product listing page and having the ‘add to cart’ button sticky on mobile. Users can now find their existing contact lens prescription when they have logged in, making their contact lens purchase experience much more easier.
 
 <figure>
-  <img alt="SMART Recovery image 2" class="project-detail__image" src="{{ site.url }}/assets/img/projects/project-detail-sr-2.gif" />
+  <img alt="SMART Recovery image 2" class="project-detail__image" src="{{ site.url }}/assets/img/projects/smart-recovery/smrt_2.gif" />
 </figure>
 <figure>
-  <img alt="SMART Recovery image 3" class="project-detail__image is-first-half" src="{{ site.url }}/assets/img/projects/project-detail-sr-4.gif" />
+  <img alt="SMART Recovery image 3" class="project-detail__image is-first-half" src="{{ site.url }}/assets/img/projects/smart-recovery/smrt_3.gif" />
 </figure>
 <figure>
-  <img alt="SMART Recovery image 4" class="project-detail__image is-second-half" src="{{ site.url }}/assets/img/projects/project-detail-sr-3.gif" />
+  <img alt="SMART Recovery image 4" class="project-detail__image is-second-half" src="{{ site.url }}/assets/img/projects/smart-recovery/smrt_4.gif" />
 </figure>
 <figure>
-  <img alt="SMART Recovery image 5" class="project-detail__image" src="{{ site.url }}/assets/img/projects/project-detail-sr-5.gif" />
+  <img alt="SMART Recovery image 5" class="project-detail__image" src="{{ site.url }}/assets/img/projects/smart-recovery/smrt_5.gif" />
 </figure>

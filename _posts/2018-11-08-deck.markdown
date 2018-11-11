@@ -6,8 +6,12 @@ agency: Personal project
 position: Lead Product Designer and Co-product Owner
 scope:
 gradient: "linear-gradient(135deg, #ddeec5, #b2e7fa)"
-intro: As a designer, I always loved to bookmark any awesome websites I come across. By default I used the bookmarks section of the browser, but I always ended up being left with a long list of forgotten websites. I pitched an idea to my partner to show bookmarked websites with a screenshot of the page in a card format, like a deck of cards.
+project_hero_image: /assets/img/projects/deck/deck_banner.jpg
 ---
+
+![Deck image 1]({{ site.url }}/assets/img/projects/deck/deck_1.jpg){:class="project-detail__image"}
+
+As a designer, I always loved to bookmark any awesome websites I come across. By default I used the bookmarks section of the browser, but I always ended up being left with a long list of forgotten websites. I pitched an idea to my partner to show bookmarked websites with a screenshot of the page in a card format, like a deck of cards.
 
 ## Challenges
 Rather than a separate app to house these websites, we created a Chrome extension. We have never made a browser extension before, so it would be perfect to give it a go and learn from it.
@@ -20,3 +24,10 @@ We developed the Deck extension as two parts: a tool to bookmark websites and an
 When the user is on a website they’d like to bookmark, they click on the deck icon in the Chrome extension bar. They will be presented with a popup asking them to save it in a folder or to create a new one. Once they saved a bookmark, a Firebase function is triggered which will crawl the website, take a screenshot of it and upload it to a server.
 
 To view bookmarks, the user simply opens a new tab to see their deck of bookmarks presented to them as cards. Each card displays the name of the website, a screenshot of it and the date it was saved.
+
+<figure>
+  <img alt="Deck image 2" class="project-detail__image" src="{{ site.url }}/assets/img/projects/deck/deck_2.jpg" />
+</figure>
+<figure>
+  <img alt="Deck image 3" class="project-detail__image" src="{{ site.url }}/assets/img/projects/deck/deck_3.jpg" />
+</figure>

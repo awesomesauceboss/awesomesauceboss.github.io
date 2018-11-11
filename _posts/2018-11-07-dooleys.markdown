@@ -6,8 +6,12 @@ agency: GHO Sydney
 position: Lead UX/UI Designer and Project Owner
 scope:
 gradient: "linear-gradient(135deg, #ddeec5, #b2e7fa)"
-intro: Dooleys is a Catholic Club as well as a community and entertainment hub. They approached us to refresh their website, one that has not seen any updates since 2012.
+project_hero_image: /assets/img/projects/dooleys/doo_banner.jpg
 ---
+
+![Dooleys image 1]({{ site.url }}/assets/img/projects/dooleys/doo_1.jpg){:class="project-detail__image"}
+
+Dooleys is a Catholic Club as well as a community and entertainment hub. They approached us to refresh their website, one that has not seen any updates since 2012.
 
 ## Challenges
 As there were not much data about Dooleys’ services and how the website is used, a user survey and feedback was conducted to find out what could be improved. Through our surveys we found that the website’s use of stock imagery did not sit well with the users as they felt it didn’t connect with their tight knit community.
@@ -26,3 +30,13 @@ The events section was redesigned to allow users to easily navigate upcoming eve
 We also improved the IA structure by collating some of the links around the website to a more cohesive menu. For example, the old website contained some community updates on the footer, which we moved to the menu.
 
 To support the renewed attention to content, we also had to make sure the website could be easily updated by staff. To achieve this, I was put in charge of making sure the CMS was easy to use and navigate for the marketing team.
+
+<figure>
+  <img alt="Dooleys image 2" class="project-detail__image" src="{{ site.url }}/assets/img/projects/dooleys/doo_2.jpg" />
+</figure>
+<figure>
+  <img alt="Dooleys image 3" class="project-detail__image" src="{{ site.url }}/assets/img/projects/dooleys/doo_3.jpg" />
+</figure>
+<figure>
+  <img alt="Dooleys image 4" class="project-detail__image" src="{{ site.url }}/assets/img/projects/dooleys/doo_4.gif" />
+</figure>

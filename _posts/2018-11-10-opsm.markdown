@@ -6,7 +6,10 @@ agency: GHO Sydney
 position: Lead UX/UI Designer
 scope:
 gradient: "linear-gradient(135deg, #ddeec5, #b2e7fa)"
+project_hero_image: /assets/img/projects/opsm/op_banner.jpg
 ---
+
+![OPSM image 1]({{ site.url }}/assets/img/projects/opsm/op_1.jpg){:class="project-detail__image"}
 
 ## Challenges
 OPSM needed a refresh to their ecommerce website as the existing experience was no longer providing a good user experience. Users were having issues finding the right product using the website’s search or when navigating the product listing page. Search in particular, was often inaccurate, serving the user unrelated products and articles.
@@ -24,3 +27,16 @@ We created a sleeker UI and minimised the amount of colours to match the new bra
 On the homepage, the hierarchy and spacing between promotions has been improved to help with the visual flow. We moved the more popular or important sections (product categories, booking an eye test) to the top of the page. The homepage also includes some personalisation options for a logged-in user. The website will serve personalised promotions based on the user’s purchase history as well as eye test reminders.
 
 The extremely long mobile has been replaced with curtain level navigation. The use of imagery also helps place some more context to the user. Predictive search as well as categorising the search results has been implemented to improve the search experience. We made sure the user can see all of the most important items at first glance with some smaller details such as sticky filters on the product listing page and having the ‘add to cart’ button sticky on mobile. Users can now find their existing contact lens prescription when they have logged in, making their contact lens purchase experience much more easier
+
+<figure>
+  <img alt="OPSM image 2" class="project-detail__image" src="{{ site.url }}/assets/img/projects/opsm/op_2.jpg" />
+</figure>
+<figure>
+  <img alt="OPSM image 3" class="project-detail__image is-first-half" src="{{ site.url }}/assets/img/projects/opsm/op_3.jpg" />
+</figure>
+<figure>
+  <img alt="OPSM image 4" class="project-detail__image is-second-half" src="{{ site.url }}/assets/img/projects/opsm/op_4.jpg" />
+</figure>
+<figure>
+  <img alt="OPSM image 5" class="project-detail__image" src="{{ site.url }}/assets/img/projects/opsm/op_5.jpg" />
+</figure>

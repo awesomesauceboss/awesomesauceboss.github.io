@@ -17,9 +17,9 @@
 
 .project-preview__container-top {
   height: 100%;
+  position: relative;
   padding-left: $spacer-base;
   padding-right: $spacer-base;
-  position: relative;
 
   @include media-up($bp-med) {
     padding-left: $spacer-2;
@@ -28,7 +28,7 @@
 
   &:hover {
     .project-image {
-      background-size: 110%;
+      transform: scale(1.2);
 
       &::after {
         background-color: transparent;
@@ -60,14 +60,20 @@
   }
 }
 
+.project-image-container {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
 .project-image {
   background-color: $white;
   float: right;
   height: 100%;
   position: relative;
   width: 100%;
-  background-size: 100%;
-  transition: background-size 100ms ease-in-out;
+  background-size: cover;
+  transition: transform 4s linear;
 
   &::after {
     background-color: rgba($white, 0.6);
