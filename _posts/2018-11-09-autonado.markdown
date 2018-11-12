@@ -8,6 +8,7 @@ scope:
 gradient: "linear-gradient(135deg, #ddeec5, #b2e7fa)"
 intro: Autonado is a start-up product with a vision of creating one platform to connect all auto enthusiasts.
 project_hero_image: /assets/img/projects/autonado/auto_banner.jpg
+white_title: true
 ---
 
 ![Autonado image 1]({{ site.url }}/assets/img/projects/autonado/auto_1.jpg){:class="project-detail__image"}

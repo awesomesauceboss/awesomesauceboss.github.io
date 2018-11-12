@@ -497,7 +497,7 @@ u {
   .project-preview__container-top:hover .project-image {
     transform: scale(1.2); }
     .project-preview__container-top:hover .project-image::after {
-      background-color: transparent; }
+      background-color: rgba(255, 255, 255, 0.3); }
   .project-preview__container-top .h1-project {
     left: 0;
     position: absolute;
@@ -604,6 +604,8 @@ u {
   @media (min-width: 58.125em) {
     .h1-project {
       font-size: 3.75rem; } }
+  .h1-project.is-white {
+    color: #fff; }
 
 .h2-cta {
   color: #fff;

@@ -8,6 +8,7 @@ scope:
 gradient: "linear-gradient(135deg, #ddeec5, #b2e7fa)"
 intro: SMART Recovery is a not-for-profit organisation who provides programs for assisting people who want to take control of their addiction. Its programs are guided by trained peers, professionals and researchers using cognitive behaviour therapy and other motivational strategies.
 project_hero_image: /assets/img/projects/smart-recovery/smrt_banner.jpg
+white_title: true
 ---
 
 ![SMART Recovery image 1]({{ site.url }}/assets/img/projects/smart-recovery/smrt_1.jpg){:class="project-detail__image"}

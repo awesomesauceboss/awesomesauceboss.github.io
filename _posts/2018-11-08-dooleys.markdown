@@ -7,6 +7,7 @@ position: Lead UX/UI Designer and Project Owner
 scope:
 gradient: "linear-gradient(135deg, #ddeec5, #b2e7fa)"
 project_hero_image: /assets/img/projects/dooleys/doo_banner.jpg
+white_title: true
 ---
 
 ![Dooleys image 1]({{ site.url }}/assets/img/projects/dooleys/doo_1.jpg){:class="project-detail__image"}

@@ -37,6 +37,10 @@
   @include media-up($bp-lg) {
     font-size: $font-size-h1-lg;
   }
+
+  &.is-white {
+    color: $white;
+  }
 }
 
 .h2-cta {

@@ -4,7 +4,11 @@ layout: static-gradient
 <div class="hero hero--alt hero-image" style="background-image: url({{ page.project_hero_image }});">
   <div class="container">
     <div class="hero__container-top hero__container-flex">
-      <h1 class="h1-hero h1-project">{{ page.project_title }}</h1>
+      {% if page.white_title %}
+        <h1 class="h1-hero h1-project is-white">{{ page.project_title }}</h1>
+      {% else %}
+        <h1 class="h1-hero h1-project">{{ page.project_title }}</h1>
+      {% endif %}
       {% if page.link %}
       <a class="button-plain link" href="{{ page.link }}" target="_blank">Visit site</a>
       {% endif %}

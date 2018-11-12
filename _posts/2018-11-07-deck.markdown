@@ -1,7 +1,7 @@
 ---
 layout: project-detail
 title: Sharon Peng | Designer - Deck
-project_title: Deck
+project_title: Sitedeck
 agency: Personal project
 position: Lead Product Designer and Co-product Owner
 scope:
