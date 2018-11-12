@@ -413,6 +413,8 @@ u {
   text-transform: uppercase; }
 .project-detail__body p + h2 {
   margin-top: 4.6875rem; }
+.project-detail__body figure:not(:last-child) {
+  margin-bottom: 1.875rem; }
 .project-detail__body p:not(:last-child) {
   margin-bottom: 1.875rem; }
 
@@ -427,7 +429,6 @@ u {
       margin-bottom: 0; } }
 
 .project-detail__image {
-  margin-top: 1.875rem;
   max-width: 100%;
   text-align: center;
   width: 100%; }
@@ -435,11 +436,8 @@ u {
     width: calc(50% - 15px); }
   .project-detail__image.is-first-half {
     float: left; }
-  .project-detail__image.is-first-half {
+  .project-detail__image.is-second-half {
     float: right; }
-  @media (min-width: 40em) {
-    .project-detail__image {
-      margin-top: 3.75rem; } }
   .project-detail__image img {
     max-width: 100%;
     width: 100%; }

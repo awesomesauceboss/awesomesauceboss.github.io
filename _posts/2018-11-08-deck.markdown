@@ -21,13 +21,13 @@ We had challenges with the Javascript logic in generating screenshots then uploa
 ## Solution
 We developed the Deck extension as two parts: a tool to bookmark websites and an app to view and manage the “deck” of bookmarks.
 
-When the user is on a website they’d like to bookmark, they click on the deck icon in the Chrome extension bar. They will be presented with a popup asking them to save it in a folder or to create a new one. Once they saved a bookmark, a Firebase function is triggered which will crawl the website, take a screenshot of it and upload it to a server.
-
-To view bookmarks, the user simply opens a new tab to see their deck of bookmarks presented to them as cards. Each card displays the name of the website, a screenshot of it and the date it was saved.
-
 <figure>
   <img alt="Deck image 2" class="project-detail__image" src="{{ site.url }}/assets/img/projects/deck/deck_2.jpg" />
 </figure>
+
+When the user is on a website they’d like to bookmark, they click on the deck icon in the Chrome extension bar. They will be presented with a popup asking them to save it in a folder or to create a new one. Once they saved a bookmark, a Firebase function is triggered which will crawl the website, take a screenshot of it and upload it to a server.
+
+To view bookmarks, the user simply opens a new tab to see their deck of bookmarks presented to them as cards. Each card displays the name of the website, a screenshot of it and the date it was saved.
 <figure>
   <img alt="Deck image 3" class="project-detail__image" src="{{ site.url }}/assets/img/projects/deck/deck_3.jpg" />
 </figure>

@@ -23,20 +23,21 @@ It was hard to navigate the events page as users found it hard to easily see wha
 ## Solution
 The community Dooleys serves is a multicultural one and therefore multilingual. Our utmost priority was to make sure all modules of the website supported the languages used most commonly in the local community.
 
+<figure>
+  <img alt="Dooleys image 3" class="project-detail__image" src="{{ site.url }}/assets/img/projects/dooleys/doo_3.jpg" />
+</figure>
+
 A refresh to the look and feel to the website’s design, images and content was needed. The content especially needed to reflect the local community that Dooleys has been supporting for many years. The homepage now highlights information deemed most important by the community, such as latest news, upcoming events and operating hours.
+
+<figure>
+  <img alt="Dooleys image 2" class="project-detail__image" src="{{ site.url }}/assets/img/projects/dooleys/doo_2.jpg" />
+</figure>
 
 The events section was redesigned to allow users to easily navigate upcoming events. We divided events into different sections: what’s on today, weekend and weekly activities. Users are also able to select via a calendar if there is an event on a particular date.
 
 We also improved the IA structure by collating some of the links around the website to a more cohesive menu. For example, the old website contained some community updates on the footer, which we moved to the menu.
 
 To support the renewed attention to content, we also had to make sure the website could be easily updated by staff. To achieve this, I was put in charge of making sure the CMS was easy to use and navigate for the marketing team.
-
-<figure>
-  <img alt="Dooleys image 2" class="project-detail__image" src="{{ site.url }}/assets/img/projects/dooleys/doo_2.jpg" />
-</figure>
-<figure>
-  <img alt="Dooleys image 3" class="project-detail__image" src="{{ site.url }}/assets/img/projects/dooleys/doo_3.jpg" />
-</figure>
 <figure>
   <img alt="Dooleys image 4" class="project-detail__image" src="{{ site.url }}/assets/img/projects/dooleys/doo_4.gif" />
 </figure>
