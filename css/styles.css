@@ -475,18 +475,16 @@ u {
     margin-right: 3.75rem; } }
 
 .project-preview {
-  height: 100vh;
-  padding-bottom: 1.875rem;
-  padding-top: 80px; }
+  height: 400px;
+  margin-bottom: 4.6875rem; }
   @media (min-width: 40em) {
     .project-preview {
-      height: 100vh;
-      padding-top: 7.5rem; } }
+      margin-bottom: 7.5rem; } }
   .project-preview:last-child .project-preview__container-bottom {
     display: none; }
 
 .project-preview__container-top {
-  height: 100%;
+  height: 400px;
   position: relative;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem; }
